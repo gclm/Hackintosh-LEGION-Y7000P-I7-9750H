@@ -1,0 +1,2 @@
+# Hackintosh-LEGION-Y7000P-I7-9750H
+联想拯救者Y7000P I7-9750H 完美级 EFI
