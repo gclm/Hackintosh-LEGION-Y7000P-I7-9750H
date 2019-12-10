@@ -46,4 +46,4 @@ Github：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H>
 
 <div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://gitee.com/gclm/images/raw/master/20191210926w8E1LL.png"></div>
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://gitee.com/gclm/images/raw/master/20191210927ywe3MP.png" ></div>
+<div style="float:right;border:solid 1px 000;margin:2px;"><img src="https://gitee.com/gclm/images/raw/master/20191210927ywe3MP.png" ></div>
