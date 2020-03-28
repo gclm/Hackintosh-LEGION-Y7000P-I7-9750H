@@ -145,6 +145,12 @@
 	</dict>
 	<key>CPU</key>
 	<dict>
+		<key>C2</key>
+		<true/>
+		<key>C4</key>
+		<true/>
+		<key>C6</key>
+		<true/>
 		<key>HWPEnable</key>
 		<true/>
 	</dict>
