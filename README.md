@@ -35,17 +35,21 @@
 
 ## 反馈
 
-反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
-交流 QQ 群：686834883
+- 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
+- 交流 QQ 群：686834883
 
 ## About
 
-Email：[gclm159@gmail.com](mailto:gclm159@gmail.com)
+- Email：[gclm159@gmail.com](mailto:gclm159@gmail.com)
 
-Github：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H>
+- Github：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H>
 
 如果帮助到你了，请不吝赞赏！谢谢！
 
-<div style="float:left;border:solid 1px 000;margin:2px;"><img src="https://gitee.com/gclm/images/raw/master/20191210926w8E1LL.png"></div>
+<div style="float:left;border:solid 1px 000;margin:2px;">
+  <img src="https://gitee.com/gclm/images/raw/master/20191210926w8E1LL.png">
+</div>
 
-<div style="float:right;border:solid 1px 000;margin:2px;"><img src="https://gitee.com/gclm/images/raw/master/20191210927ywe3MP.png" ></div>
+<div style="float:right;border:solid 1px 000;margin:2px;">
+  <img src="https://gitee.com/gclm/images/raw/master/20191210927ywe3MP.png" >
+</div>
