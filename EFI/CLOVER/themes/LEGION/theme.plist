@@ -37,8 +37,6 @@
 			<key>Swap</key>
 			<true/>
 		</dict>
-		<key>Banner</key>
-		<string>banner.png</string>
 		<key>Font</key>
 		<dict>
 			<key>CharWidth</key>
