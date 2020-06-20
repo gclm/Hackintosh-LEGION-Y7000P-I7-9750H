@@ -45,7 +45,7 @@
 ## 关于
 
 - Email：[gclm159@gmail.com](mailto:gclm159@gmail.com)
-
+- Gitee:  [https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
 - Github：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H>
 
 **📣如果帮助到你了，请帮忙点亮[Github](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)右上角小星星，这将是我持续更新的动力！**
