@@ -29,29 +29,26 @@
 
 ## 更新日志
 
-- 2020.05.04 发布v1.4 优化UI和更新相关依赖
-- 2020.03.27 发布 v1.3 优化小太阳和小键盘驱动等问题
-- 2020.02.20 发布 v1.2 全面适配15.x(15.1、15.2、15.3)
-- 2019.12.09 发布第一版目前只支持 14.6,15.x 没进行测试
-- 2019.12.28 发布v1.1，进行了大量更新
+| 时间       | 版本 | 更新日志                                  |
+| ---------- | ---- | ----------------------------------------- |
+| 2019.12.09 | v1.0 | 发布第一版目前只支持 14.6,15.x 没进行测试 |
+| 2019.12.28 | v1.1 | 进行了大量更新                            |
+| 2020.02.20 | v1.2 | 全面适配15.x(15.1、15.2、15.3)            |
+| 2020.03.27 | v1.3 | 优化小太阳和小键盘驱动等问题              |
+| 2020.05.04 | v1.4 | 优化UI和更新相关依赖                      |
 
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
 - 交流 QQ 群：686834883
 
-## About
+## 关于
 
 - Email：[gclm159@gmail.com](mailto:gclm159@gmail.com)
-
+- Gitee:  [https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
 - Github：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H>
 
-如果帮助到你了，请不吝赞赏！谢谢！
+**📣如果帮助到你了，请帮忙点亮[Github](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)右上角小星星，这将是我持续更新的动力！**
 
-<div style="float:left;border:solid 1px 000;margin:2px;">
-  <img src="https://gitee.com/gclm/images/raw/master/20191210926w8E1LL.png">
-</div>
+<img src='https://cdn.jsdelivr.net/gh/gclm/images@master/20191230923363Du7so.jpg' width="600px" />
 
-<div style="float:right;border:solid 1px 000;margin:2px;">
-  <img src="https://gitee.com/gclm/images/raw/master/20191210927ywe3MP.png" >
-</div>
