@@ -123,7 +123,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>dart=0 bpr_probedelay=100 bpr_initialdelay=300 bpr_postresetdelay=300 brcmfx-country=CN</string>
+		<string>dart=0</string>
 		<key>CustomLogo</key>
 		<string>Theme</string>
 		<key>DefaultVolume</key>
@@ -156,6 +156,13 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>Audio</key>
+		<dict>
+			<key>Inject</key>
+			<integer>18</integer>
+			<key>ResetHDA</key>
+			<true/>
+		</dict>
 		<key>Properties</key>
 		<dict>
 			<key>PciRoot(0x0)/Pci(0x0,0x0)</key>
@@ -421,6 +428,8 @@
 	</dict>
 	<key>GUI</key>
 	<dict>
+		<key>CustomIcons</key>
+		<true/>
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
@@ -620,7 +629,7 @@
 	<key>SystemParameters</key>
 	<dict>
 		<key>CustomUUID</key>
-		<string>214820A3-8354-4224-B92F-EE170EFC325E</string>
+		<string>E12012F7-B8DF-549B-9138-2E8425401626</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>
