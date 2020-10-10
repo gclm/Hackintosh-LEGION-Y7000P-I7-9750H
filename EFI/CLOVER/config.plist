@@ -429,7 +429,7 @@
 	<key>GUI</key>
 	<dict>
 		<key>CustomIcons</key>
-		<true/>
+		<true/>     
 		<key>Hide</key>
 		<array>
 			<string>Preboot</string>
@@ -574,62 +574,16 @@
 		<string>0x28</string>
 		<key>CsrActiveConfig</key>
 		<string>0x67</string>
-		<key>ROM</key>
-		<data>J3lpei1c</data>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
-		<key>BiosReleaseDate</key>
-		<string>11/08/2019</string>
-		<key>BiosVendor</key>
-		<string>Apple Inc.</string>
-		<key>BiosVersion</key>
-		<string>MBP151.88Z.F000.B00.1911080423</string>
-		<key>Board-ID</key>
-		<string>Mac-937A206F2EE63C01</string>
-		<key>BoardManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>BoardSerialNumber</key>
-		<string>C02808802GUJP4F1H</string>
-		<key>BoardType</key>
-		<integer>10</integer>
-		<key>BoardVersion</key>
-		<string>1.0</string>
-		<key>ChassisAssetTag</key>
-		<string>MacBook-Aluminum</string>
-		<key>ChassisManufacturer</key>
-		<string>Apple Inc.</string>
-		<key>ChassisType</key>
-		<string>0x09</string>
-		<key>EfiVersion</key>
-		<string>1037.60.55.0.0</string>
-		<key>Family</key>
-		<string>MacBook Pro</string>
-		<key>FirmwareFeatures</key>
-		<string>0xFC0FE137</string>
-		<key>FirmwareFeaturesMask</key>
-		<string>0xFF1FFF3F</string>
-		<key>LocationInChassis</key>
-		<string>Part Component</string>
-		<key>Manufacturer</key>
-		<string>Apple Inc.</string>
 		<key>Mobile</key>
 		<true/>
-		<key>PlatformFeature</key>
-		<string>0x02</string>
 		<key>ProductName</key>
-		<string>MacBookPro15,1</string>
-		<key>SerialNumber</key>
-		<string>C02W9JYRKGYG</string>
-		<key>SmUUID</key>
-		<string>912DF1C8-B3E6-455C-B4C7-A6FD4A7A2D5C</string>
-		<key>Version</key>
-		<string>1.0</string>
+		<string>MacBookPro15,3</string>
 	</dict>
 	<key>SystemParameters</key>
 	<dict>
-		<key>CustomUUID</key>
-		<string>E12012F7-B8DF-549B-9138-2E8425401626</string>
 		<key>InjectKexts</key>
 		<string>Yes</string>
 	</dict>
