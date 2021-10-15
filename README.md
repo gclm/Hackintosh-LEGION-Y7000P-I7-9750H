@@ -39,6 +39,7 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2020.10.11 | v1.6 | 优化UI和三码相关信息                            |
 | 2021.01.31 | v2.0 | 新增OpenCore配置，支持11.x                      |
 | 2021.09.26 | v2.1 | OpenCore 0.7.4，支持12beta7                    |
+| 2021.10.15 | v2.2 | OpenCore 0.7.5，支持12beta10，自行编译蓝牙      |
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
