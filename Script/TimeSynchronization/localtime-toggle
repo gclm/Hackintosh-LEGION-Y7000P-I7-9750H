@@ -1,0 +1,16 @@
+#!/bin/sh
+
+to_utc() {
+	echo "localtime-toggle: Toggling to UTC."
+	date -f %m%d%H%M%Y `date -u +%m%d%H%M%Y`
+}
+
+to_localtime() {
+	echo "localtime-toggle: Toggling to localtime."
+	date -u -f %m%d%H%M%Y `date +%m%d%H%M%Y`
+}
+
+trap 'to_localtime; exit' term
+to_utc
+{ while true; do sleep 86400; done; } &
+wait
