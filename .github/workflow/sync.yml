@@ -1,0 +1,26 @@
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+  workflow_dispatch:
+  schedule:
+    - cron: '0 1 * * *'
+
+name: Mirror GitHub Selected Repos to Gitee
+jobs:
+  run:
+    name: Run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source codes
+        uses: actions/checkout@v2
+      - name: Mirror Github to Gitee with white list
+        uses: Yikun/hub-mirror-action@master
+        with:
+          src: github/gclm
+          dst: gitee/gclm
+          dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
+          dst_token:  ${{ secrets.GITEE_TOKEN }}
+          static_list: 'Hackintosh-LEGION-Y7000P-I7-9750H'
+          force_update: true
