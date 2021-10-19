@@ -7,7 +7,7 @@ on:
   schedule:
     - cron: '0 1 * * *'
 
-name: Mirror GitHub Selected Repos to Gitee
+name: Git Sync
 jobs:
   run:
     name: Run

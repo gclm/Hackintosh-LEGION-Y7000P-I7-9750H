@@ -1,6 +1,7 @@
 # Hackintosh-LEGION-Y7000P-I7-9750H
+> 联想拯救者 Y7000P I7-9750H 准完美级 EFI
 
-联想拯救者 Y7000P I7-9750H 准完美级 EFI
+![Git Sync](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/actions/workflows/sync.yml/badge.svg)
 
 ## 电脑配置
 
