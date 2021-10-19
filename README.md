@@ -42,6 +42,15 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/3.png' width="600px"/>
+## 小键盘修复
+github命令
+```
+sudo sh -c "$(curl -fsSL https://github.com/LoveGlaze/Y7000P-Fix/raw/master/Script/Optimize.sh)"
+```
+gitee命令
+```
+sudo sh -c "$(curl -fsSL https://gitee.com/LoveGlaze/Y7000P-Fix/raw/master/Script/Optimize.sh)"
+```
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
