@@ -27,6 +27,18 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 - 屏蔽独显，不支持 HDMI(以咨询过联想客服 HDMI、DP、Type-C 都是连接的独显)
 - 支持 FN 热键，可以使用系统组合键调节亮度、声音等
 - 有任何问题下方加群解决
+
+## 项目结构
+
+```shell
+.
+├── Clover       Clover引导（已过时）
+├── LICENSE      开发协议
+├── OpenCore     OC引导
+├── README.md    说明文档
+└── Script       修复补丁
+```
+
 ## 更新日志
 
 | 时间       | 版本 | 更新日志                                         |
@@ -43,6 +55,7 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/3.png' width="600px"/>
+
 ## 小键盘修复
 github命令
 ```
