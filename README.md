@@ -53,8 +53,8 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2021.09.26 | v2.1 | OpenCore 0.7.4，支持12beta7                    |
 | 2021.10.15 | v2.3 | OpenCore 0.7.5，支持12beta10，自行编译蓝牙      |
 
-<img src='https://github.com/LoveGlaze/images/raw/master/1.png' height="200px" width="300px"><img src='https://github.com/LoveGlaze/images/raw/master/2.png' height="200px" width="300px"/>
-<img src='https://github.com/LoveGlaze/images/raw/master/3.png' width="600px"/>
+<img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
+<img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/3.png' width="600px"/>
 
 ## 小键盘修复
 github命令
@@ -68,7 +68,7 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
-- 交流 QQ 群：686834883<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi"><img border="0" src="https://github.com/LoveGlaze/images/raw/master/QQ.png" alt="Hackintosh" title="Hackintosh"></a>
+- 交流 QQ 群：686834883<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi"><img border="0" src="https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/QQ.png" alt="Hackintosh" title="Hackintosh"></a>
 
 ## 关于
 
@@ -79,4 +79,5 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 **📣如果帮助到你了，请帮忙点亮[Github](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)右上角小星星，这将是我持续更新的动力！**
 
 <img src='https://cdn.jsdelivr.net/gh/gclm/images@master/20191230923363Du7so.jpg' width="600px" />
+
 
