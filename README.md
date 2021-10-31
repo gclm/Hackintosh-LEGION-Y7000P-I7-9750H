@@ -19,7 +19,6 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 ```
 
 ## EFI 信息
-- 支持最新Monterey 12.0 Beta 10，自编译蓝牙驱动，AX200蓝牙正常
 - 配置: i7-9750H/UHD630/AX200
 - 屏蔽 PM981 补丁
 - 电源管理/蓝牙/WIFI 状态良好
