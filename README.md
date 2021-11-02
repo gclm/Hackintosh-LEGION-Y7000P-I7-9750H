@@ -53,9 +53,10 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2021.10.15 | v2.3 | OpenCore 0.7.5，支持12beta10，自行编译蓝牙      |
 | 2021.10.30 | v2.4 | OpenCore 0.7.5，支持Monterey，修复蓝牙问题      |
 
-v2.4更新日志：
+更新简介：
 ```
-自编译IntelBluetoothFirmware.kext及BlueToolFixup.kext，修复蓝牙、蓝牙关闭后无法再开启。
+自编译IntelBluetoothFirmware.kext，修复蓝牙。
+驱动更新。
 开启Booter-Quirks-SyncRuntimePermissions，解决Windows 11开启Hyper-v后OC引导Windows绿屏。
 OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-MinDate及MinVersion两项改为-1
 ```
