@@ -57,6 +57,7 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 ```
 自编译IntelBluetoothFirmware.kext，修复蓝牙。
 驱动更新。
+修复睡眠。
 开启Booter-Quirks-SyncRuntimePermissions，解决Windows 11开启Hyper-v后OC引导Windows绿屏。
 OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-MinDate及MinVersion两项改为-1
 ```
