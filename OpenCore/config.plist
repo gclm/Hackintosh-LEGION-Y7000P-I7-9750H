@@ -1289,7 +1289,7 @@
                     <key>SystemAudioVolume</key>
                     <data>YA==</data>
                     <key>boot-args</key>
-                    <string>-v keepsyms=1 igfxfw=2  -igfxblr -igfxrpsc=1 -revsbvmm</string>
+                    <string>keepsyms=1 igfxfw=2  -igfxblr -igfxrpsc=1 -revsbvmm</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
