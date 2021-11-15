@@ -11,7 +11,7 @@
 CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 主板  联想 LNVNB161216
 内存  32.00 GB (   2667 MHz)
-主硬盘  1024 GB (三星 SAMSUNG MZVLB1T0HBLR-000L2 已使用时间: 未知)（已更换）
+硬盘  Lenovo SSD SL700 480G
 显卡  NVIDIA GeForce GTX 1650，核显 Intel(R) UHD Graphics 630
 显示器  京东方 BOE HF 32位真彩色 144Hz
 声卡  Realtek High Definition Audio
@@ -55,11 +55,11 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 
 更新简介：
 ```
-自编译IntelBluetoothFirmware.kext，修复蓝牙。
-驱动更新。
-修复睡眠。
+编译IntelBluetoothFirmware.kext-2.1.0版本。
+添加ACPI补丁，修复睡眠。
 开启Booter-Quirks-SyncRuntimePermissions，解决Windows 11开启Hyper-v后OC引导Windows绿屏。
-OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-MinDate及MinVersion两项改为-1
+OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-MinDate及MinVersion两项改为-1。
+若遇到外接屏幕唤醒而内置黑屏时，可删减设备属性参数解决，因本人电脑问题，删减显卡注入参数后无法启动，有解决方法的可以群里给我帮助。
 ```
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/3.png' width="600px"/>
