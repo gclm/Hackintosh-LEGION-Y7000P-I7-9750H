@@ -63,7 +63,9 @@ OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-Mi
 ```
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/3.png' width="600px"/>
-
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/OpenCore.png)
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Windows.png)
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/MacOS.png)
 ## 小键盘修复
 github命令
 ```
