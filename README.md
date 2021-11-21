@@ -62,8 +62,9 @@ OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-Mi
 若遇到外接屏幕唤醒而内置黑屏时，可删减设备属性参数解决，因本人电脑问题，删减显卡注入参数后无法启动，有解决方法的可以群里给我帮助。
 ```
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
-<img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/3.png' width="600px"/>
-
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/OpenCore.png)
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Windows.png)
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/MacOS.png)
 ## 小键盘修复
 github命令
 ```
