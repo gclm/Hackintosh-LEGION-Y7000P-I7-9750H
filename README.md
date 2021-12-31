@@ -55,7 +55,7 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 
 更新简介：
 ```
-编译IntelBluetoothFirmware.kext-2.1.0版本。
+取消屏蔽nvme补丁(若有pm981(a)记得勾上屏蔽，不然会存在系统卡死),扫描策略更改为0
 添加ACPI补丁，修复睡眠。
 开启Linux支持，自动扫描Linux分区。
 开启Booter-Quirks-SyncRuntimePermissions，解决Windows 11开启Hyper-v后OC引导Windows绿屏。
