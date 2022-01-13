@@ -32,10 +32,10 @@ jobs:
     - name: Generate Prerelease Release Notes
       run: |
         echo '### 免責聲明：:' >> ReleaseNotes.md
-        echo '***This alpha version is for testing only.***' >> ReleaseNotes.md
-        echo 'It is not ready for daily use and we do not guarantee its usability.' >> ReleaseNotes.md
-        echo 'If you discovered an issue and you do not have debugging skills, please check with the [QQ Chat Room](https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi) in advance before opening an Issue.' >> ReleaseNotes.md
-        echo '### The latest five updates are:' >> ReleaseNotes.md
+        echo '***此 Alpha 版本仅用于测试。***' >> ReleaseNotes.md
+        echo '它尚未准备好供日常使用，我们不保证其可用性。' >> ReleaseNotes.md
+        echo '如果您发现问题并且没有调试技能，请在打开问题之前提前与[QQ聊天室](https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi)联系。' >> ReleaseNotes.md
+        echo '### 最新的五个更新是:' >> ReleaseNotes.md
         git log -"5" --format="- %H %s" | sed '/^$/d' >> ReleaseNotes.md
     - name: Delete Old Prerelease
       uses: dev-drprasad/delete-tag-and-release@v0.2.0
