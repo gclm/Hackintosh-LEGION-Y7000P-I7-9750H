@@ -1,15 +1,51 @@
 name: Create Archive
 on: 
   push:
-    tags:
-    - '*'
+    branches: master
+env:
+  BUILD_OUTPUT: 'Hackintosh-LEGION-Y7000P-I7-9750H'
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@master
-    - name: Upload Release
-      uses: ncipollo/release-action@v1
+    - name: Manage Version
+      run: |
+        git fetch --prune --unshallow --tags
+        GIT_SHA="$(git rev-parse --short HEAD)"
+        CUR_TAG="$(git tag -l | grep 'alpha\|beta' | tail -1)"
+        echo "SHORT_SHA=$GIT_SHA" >> $GITHUB_ENV
+        echo "OPENCORE_VER=$MODULE_VERSION" >> $GITHUB_ENV
+        if [[ -z $CUR_TAG ]]; then
+          echo "OLD_PRE_TAG=NULL" >> $GITHUB_ENV
+        else
+          echo "OLD_PRE_TAG=$CUR_TAG" >> $GITHUB_ENV
+        fi
+    - name: Pack Artifacts
+      run: |
+        cd $BUILD_OUTPUT
+          zip -r OpenCore-DEBUG-alpha-${SHORT_SHA}.zip OpenCore
+        cd -
+    - name: Generate Prerelease Release Notes
+      run: |
+        echo '### Disclaimer:' >> ReleaseNotes.md
+        echo '***This alpha version is for testing only.***' >> ReleaseNotes.md
+        echo 'It is not ready for daily use and we do not guarantee its usability.' >> ReleaseNotes.md
+        echo 'If you discovered an issue and you do not have debugging skills, please check with the [QQ Chat Room](https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi) in advance before opening an Issue.' >> ReleaseNotes.md
+        echo '### The latest five updates are:' >> ReleaseNotes.md
+        git log -"5" --format="- %H %s" | sed '/^$/d' >> ReleaseNotes.md
+    - name: Delete Old Prerelease
+      uses: dev-drprasad/delete-tag-and-release@v0.2.0
       with:
-        artifacts: "release.zip"
+        tag_name: ${{ env.OLD_PRE_TAG }}
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Publish GitHub Release
+      if: contains(github.event.head_commit.message, 'Bump version') == false
+      uses: ncipollo/release-action@v1.8.6
+      with:
+        prerelease: true
+        bodyFile: ReleaseNotes.md
+        artifacts: "${{ env.BUILD_OUTPUT }}/*.zip"
+        tag: "v${{ env.OPENCORE_VER }}-alpha"
         token: ${{ secrets.GITHUB_TOKEN }}
