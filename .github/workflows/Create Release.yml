@@ -1,21 +1,12 @@
-name: Releases
-
-on: 
-  push:
-    tags:
-    - '*'
-
+name: Create Archive
+on: [push]
 jobs:
-
   build:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-    - uses: actions/checkout@v2
-    - uses: ncipollo/release-action@v1
+    - uses: actions/checkout@master
+    - name: Upload Release
+      uses: ncipollo/release-action@v1
       with:
-        artifacts: "release.tar.gz,foo/*.txt"
-        bodyFile: "body.md"
+        artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}
-
