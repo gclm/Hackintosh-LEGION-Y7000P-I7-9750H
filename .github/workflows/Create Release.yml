@@ -1,8 +1,6 @@
 name: Create Archive
 on: 
-  push:
-    tags:
-    - '*'
+  push:   
   create:
     tags:
       - v*
