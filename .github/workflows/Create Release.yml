@@ -25,9 +25,7 @@ jobs:
         fi
     - name: Pack Artifacts
       run: |
-        cd $BUILD_OUTPUT
-          zip -r OpenCore-DEBUG-alpha-${SHORT_SHA}.zip OpenCore
-        cd -
+        zip -r OpenCore-DEBUG-alpha-${SHORT_SHA}.zip OpenCore
     - name: Generate Prerelease Release Notes
       run: |
         echo '### Disclaimer:' >> ReleaseNotes.md
