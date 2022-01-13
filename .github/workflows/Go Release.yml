@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
     - name: Archive Release
-      uses: thedoctor0/zip-release@master
+      uses: LoveGlaze/Hackintosh-LEGION-Y7000P-I7-9750H@master
       with:
         type: 'zip'
         filename: 'release.zip'
