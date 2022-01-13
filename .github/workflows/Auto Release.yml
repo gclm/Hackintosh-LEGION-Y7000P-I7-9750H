@@ -27,7 +27,7 @@ jobs:
       run: |
         zip -r OpenCore-DEBUG-alpha-${SHORT_SHA}.zip OpenCore
         while read -r tgt ; do
-          zip -r Clover-"停更".zip Clover
+          zip -r Clover-已停更.zip Clover
           done < <(find . -mindepth 1 -maxdepth 1 -type d -not -path "*.kext" | cut -c 3-)
     - name: Generate Prerelease Release Notes
       run: |
