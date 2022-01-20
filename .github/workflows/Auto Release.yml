@@ -5,7 +5,7 @@ on:
 env:
   BUILD_OUTPUT: 'Hackintosh-LEGION-Y7000P-I7-9750H'
 jobs:
-  build:
+  Push-Release:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
