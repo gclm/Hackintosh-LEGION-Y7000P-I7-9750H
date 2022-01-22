@@ -1,0 +1,4 @@
+Y7000系列QQ群：686834883
+此EFI默认屏蔽nvme(pm981)硬盘，
+若安装盘为非pm981的nvme硬盘或电脑不存在pm981硬盘可取消屏蔽，
+方法：将EFI\CLOVER\ACPI\patched目录下的DNVMe.aml文件删除即可。

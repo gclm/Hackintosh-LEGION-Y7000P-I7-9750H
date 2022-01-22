@@ -5,7 +5,7 @@ on:
 env:
   BUILD_OUTPUT: 'Hackintosh-LEGION-Y7000P-I7-9750H'
 jobs:
-  build:
+  Push-Release:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
@@ -25,10 +25,8 @@ jobs:
         fi
     - name: Pack Artifacts
       run: |
-        zip -r OpenCore-DEBUG-alpha-${SHORT_SHA}.zip OpenCore
-        while read -r tgt ; do
-          zip -r Clover-stop_update.zip Clover
-          done < <(find . -mindepth 1 -maxdepth 1 -type d -not -path "*.kext" | cut -c 3-)
+        zip -r OpenCore-alpha-${SHORT_SHA}.zip OpenCore
+        zip -r Clover-alpha-${SHORT_SHA}.zip Clover
     - name: Generate Prerelease Release Notes
       run: |
         echo '### 免責聲明：:' >> ReleaseNotes.md

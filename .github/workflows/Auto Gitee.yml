@@ -5,7 +5,7 @@ on:
     branches:
       - master
 jobs:
-  repo-sync:
+  Push-Gitee:
     env:
       dst_key: ${{ secrets.GITEE_PRIVATE_KEY }}
       dst_token: ${{ secrets.GITEE_TOKEN }}

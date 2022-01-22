@@ -3,26 +3,28 @@
 <plist version="1.0">
 <dict>
 	<key>Author</key>
-	<string>Extreigionor</string>
+	<string>Badruzeus</string>
 	<key>Description</key>
-	<string>LEGION</string>
+	<string>Clover theme with Ubuntu's Unity look and feel. Version: 3.0</string>
 	<key>Theme</key>
 	<dict>
 		<key>Anime</key>
 		<array>
 			<dict>
 				<key>FrameTime</key>
-				<integer>200</integer>
+				<integer>150</integer>
 				<key>Frames</key>
-				<integer>2</integer>
+				<integer>6</integer>
 				<key>ID</key>
-				<integer>4</integer>
+				<integer>1</integer>
 				<key>Path</key>
-				<string>options_anim</string>
+				<string>anime</string>
 			</dict>
 		</array>
 		<key>Background</key>
 		<dict>
+			<key>Dark</key>
+			<true/>
 			<key>Path</key>
 			<string>background.png</string>
 			<key>Type</key>
@@ -32,39 +34,68 @@
 		<dict>
 			<key>Inline</key>
 			<false/>
+			<key>Scale</key>
+			<integer>16</integer>
 			<key>Show</key>
-			<true/>
+			<false/>
 			<key>Swap</key>
 			<true/>
 		</dict>
 		<key>Banner</key>
-		<string>banner.png</string>
+		<string>logo.png</string>
+		<key>BootCampStyle</key>
+		<false/>
+		<key>Components</key>
+		<dict>
+			<key>Banner</key>
+			<true/>
+			<key>Functions</key>
+			<true/>
+			<key>Help</key>
+			<true/>
+			<key>Label</key>
+			<true/>
+			<key>MenuTitle</key>
+			<true/>
+			<key>MenuTitleImage</key>
+			<true/>
+			<key>Revision</key>
+			<true/>
+		</dict>
 		<key>Font</key>
 		<dict>
 			<key>CharWidth</key>
 			<integer>10</integer>
 			<key>Path</key>
-			<string>font.png</string>
+			<string>Font_UbuntuMono_18pt_WhiteFx.png</string>
 			<key>Proportional</key>
-			<true/>
+			<false/>
 			<key>Type</key>
 			<string>Load</string>
 		</dict>
-		<key>Layout</key>
+		<key>Origination</key>
 		<dict>
-			<key>TextOffset</key>
-			<integer>-20</integer>
+			<key>DesignHeight</key>
+			<integer>1080</integer>
+			<key>DesignWidth</key>
+			<integer>1920</integer>
 		</dict>
 		<key>Selection</key>
 		<dict>
 			<key>Big</key>
-			<string>selection_big.png</string>
+			<string>Selection_big.png</string>
+			<key>ChangeNonSelectedGrey</key>
+			<false/>
 			<key>Color</key>
-			<string>0xFFFFFF80</string>
+			<string>0x00000050</string>
+			<key>OnTop</key>
+			<false/>
 			<key>Small</key>
-			<string>selection_small.png</string>
+			<string>Selection_small.png</string>
 		</dict>
 	</dict>
+	<key>Version</key>
+	<string>3.0</string>
 	<key>Year</key>
 	<string>2019</string>
 </dict>
