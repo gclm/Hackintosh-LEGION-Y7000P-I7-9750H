@@ -64,13 +64,9 @@ CLOVER：
 	更新至5143，睡眠、触控、蓝牙一切正常。
 ```
 <img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
-
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/OpenCore.png)
-
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/CLOVER.png)
-
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Windows.png)
-
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/MacOS.png)
 
 ## 小键盘修复
