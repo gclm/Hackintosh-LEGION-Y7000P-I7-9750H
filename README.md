@@ -50,7 +50,7 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2020.10.11 | v1.6 | 优化UI和三码相关信息                            |
 | 2021.01.31 | v2.0 | 新增OpenCore配置，支持11.x                      |
 | 2021.10.30 | v2.4 | OpenCore 0.7.5，支持Monterey，修复蓝牙问题      |
-| 2021.01.22 | v2.5 | OpenCore 0.77，CLOVER 5143，支持Monterey        |
+| 2022.01.22 | v2.5 | OpenCore 0.77，CLOVER 5143，支持Monterey        |
 
 更新简介：
 ```
