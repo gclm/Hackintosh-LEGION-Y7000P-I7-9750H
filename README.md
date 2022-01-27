@@ -78,6 +78,20 @@ gitee命令
 ```
 sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/Optimize.sh)"
 ```
+## 开启HIDPI
+### 打开Hackintool
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi.png)
+```
+将导出后的DisplayVendorID-xxxx文件夹及lcons.plist放入以下位置
+访达—安装盘名—资源库—Displays—Contents—Resources—Overrides （如果没有这个文件夹手动创建一个）将文件拖入进去即可
+重启，在RDM上选用带闪电⚡️的1080P即可
+```
+- [Hackintool下载](https://github.com/headkaze/Hackintool)
+- [RDM下载](https://github.com/avibrazil/RDM)
+- 开启前
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-off.png)
+- 开启后
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-on.png)
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
