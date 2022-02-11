@@ -50,7 +50,7 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2020.10.11 | v1.6 | 优化UI和三码相关信息                            |
 | 2021.01.31 | v2.0 | 新增OpenCore配置，支持11.x                      |
 | 2021.10.30 | v2.4 | OpenCore 0.7.5，支持Monterey，修复蓝牙问题      |
-| 2021.01.22 | v2.5 | OpenCore 0.77，CLOVER 5143，支持Monterey        |
+| 2022.01.22 | v2.5 | OpenCore 0.77，CLOVER 5143，支持Monterey        |
 
 更新简介：
 ```
@@ -78,6 +78,20 @@ gitee命令
 ```
 sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/Optimize.sh)"
 ```
+## 开启HIDPI
+### 打开Hackintool
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi.png)
+```
+将导出后的DisplayVendorID-xxxx文件夹及lcons.plist放入以下位置
+访达—安装盘名—资源库—Displays—Contents—Resources—Overrides （如果没有这个文件夹手动创建一个）将文件拖入进去即可
+重启，在RDM上选用带闪电⚡️的1080P即可
+```
+- [Hackintool下载](https://github.com/headkaze/Hackintool)
+- [RDM下载](https://github.com/avibrazil/RDM)
+- 开启前
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-off.png)
+- 开启后
+![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-on.png)
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
