@@ -398,7 +398,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.9</string>
+                    <string>V1.6.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -596,7 +596,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.6</string>
+                    <string>V1.5.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -632,7 +632,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.8</string>
+                    <string>V1.6.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -686,7 +686,7 @@
                     <key>BundlePath</key>
                     <string>CpuTscSync.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.5</string>
+                    <string>V1.0.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -1306,13 +1306,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02052401GU0000JA</string>
+                <string>C02044500J90000A8</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>1793</integer>
                 <key>ROM</key>
-                <data>SycwF0JR</data>
+                <data>MsRm6vLG</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1320,9 +1320,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,4</string>
                 <key>SystemSerialNumber</key>
-                <string>C02DW0MPMD6T</string>
+                <string>C02DMWYWMD6T</string>
                 <key>SystemUUID</key>
-                <string>FB30865D-F852-4D1E-A154-09AB175550BA</string>
+                <string>60961337-319C-4868-81D2-805A29F12BDE</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
