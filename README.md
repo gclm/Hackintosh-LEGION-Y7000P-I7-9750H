@@ -110,3 +110,5 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 
 <img src='https://cdn.jsdelivr.net/gh/gclm/images@master/20191230923363Du7so.jpg' width="600px" />
 
+## Star
+[![Star History Chart](https://starchart.cc/gclm/Hackintosh-LEGION-Y7000P-I7-9750H.svg)](https://starchart.cc/gclm/Hackintosh-LEGION-Y7000P-I7-9750H.svg)
