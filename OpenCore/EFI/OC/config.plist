@@ -20,31 +20,7 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-PTSWAK.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>SSDT-AWAC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-EC.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
-                    <string>SSDT-GPRW.aml</string>
                 </dict>
                 <dict>
                     <key>Comment</key>
@@ -84,14 +60,6 @@
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-USBX.aml</string>
-                </dict>
-                <dict>
-                    <key>Comment</key>
-                    <string></string>
-                    <key>Enabled</key>
-                    <true/>
-                    <key>Path</key>
                     <string>SSDT-XCPM.aml</string>
                 </dict>
                 <dict>
@@ -102,38 +70,49 @@
                     <key>Path</key>
                     <string>SSDT-DDGPU.aml</string>
                 </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-PTSWAK.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-GPRW.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-EC.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-USBX.aml</string>
+                </dict>
+                <dict>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Path</key>
+                    <string>SSDT-UIAC.aml</string>
+                </dict>
             </array>
             <key>Delete</key>
-            <array>
-                <dict>
-                    <key>All</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string>Delete CpuPm</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>OemTableId</key>
-                    <data>Q3B1UG0AAAA=</data>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>U1NEVA==</data>
-                </dict>
-                <dict>
-                    <key>All</key>
-                    <false/>
-                    <key>Comment</key>
-                    <string>Delete Cpu0Ist</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>OemTableId</key>
-                    <data>Q3B1MElzdAA=</data>
-                    <key>TableLength</key>
-                    <integer>0</integer>
-                    <key>TableSignature</key>
-                    <data>U1NEVA==</data>
-                </dict>
-            </array>
+            <array/>
             <key>Patch</key>
             <array>
                 <dict>
@@ -246,24 +225,7 @@
         <key>Booter</key>
         <dict>
             <key>MmioWhitelist</key>
-            <array>
-                <dict>
-                    <key>Address</key>
-                    <integer>4275159040</integer>
-                    <key>Comment</key>
-                    <string>Haswell: SB_RCBA is a 0x4 page memory region, containing SPI_BASE at 0x3800 (SPI_BASE_ADDRESS)</string>
-                    <key>Enabled</key>
-                    <false/>
-                </dict>
-                <dict>
-                    <key>Address</key>
-                    <integer>4278190080</integer>
-                    <key>Comment</key>
-                    <string>Generic: PCI root is a 0x1000 page memory region used by some firmwares</string>
-                    <key>Enabled</key>
-                    <false/>
-                </dict>
-            </array>
+            <array/>
             <key>Patch</key>
             <array/>
             <key>Quirks</key>
@@ -339,7 +301,7 @@
                     <key>device_type</key>
                     <string>Network controller</string>
                     <key>model</key>
-                    <string>AX200 802.11ax Wireless Network Adapter</string>
+                    <string>Wi-Fi 6 AX200</string>
                 </dict>
                 <key>PciRoot(0x0)/Pci(0x1D,0x5)/Pci(0x0,0x0)</key>
                 <dict>
@@ -367,22 +329,6 @@
                 <dict>
                     <key>AAPL,ig-platform-id</key>
                     <data>AACbPg==</data>
-                    <key>dpcd-max-link-rate</key>
-                    <data>FAAAAA==</data>
-                    <key>enable-backlight-registers-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-dpcd-max-link-rate-fix</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-hdmi20</key>
-                    <data>AQAAAA==</data>
-                    <key>enable-max-pixel-clock-override</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-fbmem</key>
-                    <data>AACQAA==</data>
-                    <key>framebuffer-patch-enable</key>
-                    <data>AQAAAA==</data>
-                    <key>framebuffer-stolenmem</key>
-                    <data>AAAwAQ==</data>
                 </dict>
             </dict>
             <key>Delete</key>
@@ -416,7 +362,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -452,7 +398,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -470,7 +416,7 @@
                     <key>BundlePath</key>
                     <string>SMCProcessor.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -488,7 +434,7 @@
                     <key>BundlePath</key>
                     <string>SMCSuperIO.kext</string>
                     <key>Comment</key>
-                    <string>V1.2.8</string>
+                    <string>V1.2.9</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -542,7 +488,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.5</string>
+                    <string>V2.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -560,7 +506,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.2</string>
+                    <string>V1.1.3</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -596,7 +542,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.5.7</string>
+                    <string>V1.5.8</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -632,7 +578,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9</string>
+                    <string>V1.7.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -686,7 +632,7 @@
                     <key>BundlePath</key>
                     <string>CpuTscSync.kext</string>
                     <key>Comment</key>
-                    <string>V1.0.6</string>
+                    <string>V1.0.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -754,7 +700,7 @@
                 </dict>
                 <dict>
                     <key>Arch</key>
-                    <string>Any</string>
+                    <string>x86_64</string>
                     <key>BundlePath</key>
                     <string>USBPorts.kext</string>
                     <key>Comment</key>
@@ -786,6 +732,8 @@
                     <string></string>
                     <key>MinKernel</key>
                     <string></string>
+                    <key>Strategy</key>
+                    <string>Disable</string>
                 </dict>
             </array>
             <key>Emulate</key>
@@ -905,7 +853,7 @@
                 <key>CustomKernel</key>
                 <false/>
                 <key>FuzzyMatch</key>
-                <true/>
+                <false/>
                 <key>KernelArch</key>
                 <string>x86_64</string>
                 <key>KernelCache</key>
@@ -957,6 +905,8 @@
                 <integer>0</integer>
                 <key>DisplayLevel</key>
                 <integer>2147483650</integer>
+                <key>LogModules</key>
+                <string></string>
                 <key>SerialInit</key>
                 <false/>
                 <key>SysReport</key>
@@ -1004,7 +954,7 @@
                 <key>EnablePassword</key>
                 <false/>
                 <key>ExposeSensitiveData</key>
-                <integer>3</integer>
+                <integer>6</integer>
                 <key>HaltLevel</key>
                 <integer>2147483648</integer>
                 <key>PasswordHash</key>
@@ -1024,11 +974,11 @@
                     <key>Arguments</key>
                     <string></string>
                     <key>Auxiliary</key>
-                    <true/>
+                    <false/>
                     <key>Comment</key>
                     <string>Not signed for security reasons</string>
                     <key>Enabled</key>
-                    <true/>
+                    <false/>
                     <key>Flavour</key>
                     <string>Auto</string>
                     <key>Name</key>
@@ -1094,16 +1044,13 @@
                     <data>AQ==</data>
                 </dict>
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
-                <dict>
-                    <key>rtc-blacklist</key>
-                    <data></data>
-                </dict>
+                <dict/>
                 <key>7C436110-AB2A-4BBB-A880-FE41995C9F82</key>
                 <dict>
                     <key>SystemAudioVolume</key>
                     <data>YA==</data>
                     <key>boot-args</key>
-                    <string>keepsyms=1  igfxfw=2  -igfxblr igfxrpsc=1 -revsbvmm</string>
+                    <string>keepsyms=1  igfxfw=2  -igfxblr igfxrpsc=1</string>
                     <key>csr-active-config</key>
                     <data>AAAAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1174,13 +1121,13 @@
                 <key>AdviseFeatures</key>
                 <false/>
                 <key>MLB</key>
-                <string>C02044500J90000A8</string>
+                <string>C020283104N0000FB</string>
                 <key>MaxBIOSVersion</key>
                 <false/>
                 <key>ProcessorType</key>
                 <integer>1793</integer>
                 <key>ROM</key>
-                <data>MsRm6vLG</data>
+                <data>tOeSXXnT</data>
                 <key>SpoofVendor</key>
                 <true/>
                 <key>SystemMemoryStatus</key>
@@ -1188,9 +1135,9 @@
                 <key>SystemProductName</key>
                 <string>MacBookPro16,4</string>
                 <key>SystemSerialNumber</key>
-                <string>C02DMWYWMD6T</string>
+                <string>C02D20SYMD6T</string>
                 <key>SystemUUID</key>
-                <string>60961337-319C-4868-81D2-805A29F12BDE</string>
+                <string>44016DD1-B71D-49D4-B9C4-931558142563</string>
             </dict>
             <key>UpdateDataHub</key>
             <true/>
@@ -1214,7 +1161,7 @@
                 <key>HideVerbose</key>
                 <true/>
                 <key>JumpstartHotPlug</key>
-                <false/>
+                <true/>
                 <key>MinDate</key>
                 <integer>0</integer>
                 <key>MinVersion</key>
@@ -1304,7 +1251,7 @@
                 </dict>
                 <dict>
                     <key>Arguments</key>
-                    <string></string>
+                    <string>true</string>
                     <key>Comment</key>
                     <string></string>
                     <key>Enabled</key>
@@ -1453,7 +1400,7 @@
                 <key>IgnoreInvalidFlexRatio</key>
                 <false/>
                 <key>ReleaseUsbOwnership</key>
-                <false/>
+                <true/>
                 <key>ReloadOptionRoms</key>
                 <false/>
                 <key>RequestBootVarRouting</key>
@@ -1466,32 +1413,7 @@
                 <false/>
             </dict>
             <key>ReservedMemory</key>
-            <array>
-                <dict>
-                    <key>Address</key>
-                    <integer>268435456</integer>
-                    <key>Comment</key>
-                    <string>HD3000: IGPU memory corruption errata</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Size</key>
-                    <integer>268435456</integer>
-                    <key>Type</key>
-                    <string>Reserved</string>
-                </dict>
-                <dict>
-                    <key>Address</key>
-                    <integer>569344</integer>
-                    <key>Comment</key>
-                    <string>Fix black screen on wake from hibernation for Lenovo Thinkpad T490</string>
-                    <key>Enabled</key>
-                    <false/>
-                    <key>Size</key>
-                    <integer>4096</integer>
-                    <key>Type</key>
-                    <string>RuntimeCode</string>
-                </dict>
-            </array>
+            <array/>
         </dict>
     </dict>
 </plist>
