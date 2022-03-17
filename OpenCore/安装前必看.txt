@@ -1,4 +1,5 @@
 Y7000系列QQ群：686834883
+默认配置为19款，若19款无法使用，可更名另外两款为config.plist。
 此EFI默认屏蔽nvme(pm981)硬盘，
 若安装盘为非pm981的nvme硬盘或电脑不存在pm981硬盘可取消屏蔽，
 方法：记事本打开config.plist，将第13行（SSDT-DNVMe.aml头上）的true改为false即可。
