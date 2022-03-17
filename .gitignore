@@ -9,5 +9,5 @@ System Volume Information/*
 
 /EFI/APPLE
 /EFI/Microsoft
-/EFI/*/._*
-/EFI/*/.DS_Store
+**/._*
+**/.DS_Store
