@@ -1,7 +1,11 @@
 name: Push Release
 on: 
   push:
-    branches: master
+    branches: 
+      - 'master'
+    paths: 
+      - 'OpenCore'
+      - 'Clover'
 env:
   BUILD_OUTPUT: 'Hackintosh-LEGION-Y7000P-I7-9750H'
 jobs:
