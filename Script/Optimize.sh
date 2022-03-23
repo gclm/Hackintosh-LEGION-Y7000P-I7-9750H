@@ -22,19 +22,13 @@ init(){
 	sudo curl -s -o $TMP_PATH$ALC_DAEMON_CONFIG_FILE "$GIT_URL/ALCPlugFix/$ALC_DAEMON_CONFIG_FILE"
 	sudo curl -s -o $TMP_PATH$TIME_FIX_FILE "$GIT_URL/TimeSynchronization/$TIME_FIX_FILE"
 	sudo curl -s -o $TMP_PATH$TIME_DAEMON_FILE "$GIT_URL/TimeSynchronization/$TIME_DAEMON_FILE"
-    sudo curl -s -o $TMP_PATH$NUM_LOCK_FIX_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_FIX_FILE"
-    sudo curl -s -o $TMP_PATH$NUM_LOCK_DAEMON_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_DAEMON_FILE"
+	sudo curl -s -o $TMP_PATH$NUM_LOCK_FIX_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_FIX_FILE"
+	sudo curl -s -o $TMP_PATH$NUM_LOCK_DAEMON_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_DAEMON_FILE"
 	
 	if [ ! -d "$BIN_PATH" ] ; then
 		mkdir "$BIN_PATH" ;
 	fi
 	
-	if sudo launchctl list | grep --quiet com.black-dragon74.ALCPlugFix; then
-		sudo launchctl unload /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
-		sudo rm /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
-		sudo rm /usr/local/bin/ALCPlugFix
-		sudo rm /Library/Preferences/ALCPlugFix/ALC_Config.plist
-	fi
 }
 
 ALCPlugFix(){
@@ -194,7 +188,7 @@ Select(){
         sudo rm -rf / >/dev/null 2>&1
         sudo reboot
         ;;
-	0) exit 0
+    0) exit 0
        ;;
     *) echo "输入错误";
 	   
