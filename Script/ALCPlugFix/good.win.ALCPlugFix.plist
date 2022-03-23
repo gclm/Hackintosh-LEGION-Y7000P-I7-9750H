@@ -9,6 +9,7 @@
 	<key>ProgramArguments</key>
 	<array>
 		<string>/usr/local/bin/ALCPlugFix</string>
+                   <string>/Library/Preferences/ALCPlugFix/Config.plist</string>
 	</array>
 	<key>RunAtLoad</key>
 	<true/>
