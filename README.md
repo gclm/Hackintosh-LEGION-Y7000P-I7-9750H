@@ -77,17 +77,34 @@ CLOVER：
 
 
 #### [MacRecovery](https://github.com/LoveGlaze/MacRecovery)
-## 小键盘修复
-github命令
+## 问题修复
+
+#### 若有小键盘无法驱动、扬声器无声或杂音、时间同步等问题，请运行以下命令修复
+
+- github命令
+
 ```
 sudo sh -c "$(curl -fsSL https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/Optimize.sh)"
 ```
-gitee命令
+- gitee命令
+
 ```
 sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/Optimize.sh)"
 ```
+##### 修复Y9000X Mac OS 扬声器运行上述命令后还需要：
+
+- 在OC引导`config.plist`配置文件`PciRoot(0x0)/Pci(0x1f,0x3)`项添加：
+```
+<key>layout-id</key>
+<integer>66</integer>
+<key>alc-verbs</key>
+<data>AQAAAA==</data>
+```
+
 ## 开启HIDPI
+
 ### 打开Hackintool
+
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi.png)
 ```
 将导出后的DisplayVendorID-xxxx文件夹及lcons.plist放入以下位置
