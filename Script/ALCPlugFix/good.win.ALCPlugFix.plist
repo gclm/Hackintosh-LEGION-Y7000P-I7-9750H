@@ -1,19 +1,370 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
-<dict>
-    <key>KeepAlive</key>
-    <true/>
-    <key>Label</key>
-    <string>com.black-dragon74.ALCPlugFix</string>
-    <key>ProgramArguments</key>
-    <array>
-        <string>/usr/local/bin/ALCPlugFix</string>
-        <string>/Library/Preferences/ALCPlugFix/Config.plist</string>
-    </array>
-    <key>RunAtLoad</key>
-    <true/>
-    <key>ServiceIPC</key>
-    <false/>
-</dict>
+  <array>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x500 0x24</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x24</string>
+      <key>Verb</key>
+      <string>0x500</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x41</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x41</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x500 0x26</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x26</string>
+      <key>Verb</key>
+      <string>0x500</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x2</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x2</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x0</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x0</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x0</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x0</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x4b0 0x20</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x20</string>
+      <key>Verb</key>
+      <string>0x4b0</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x500 0x24</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x24</string>
+      <key>Verb</key>
+      <string>0x500</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x42</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x42</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x500 0x26</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x26</string>
+      <key>Verb</key>
+      <string>0x500</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x2</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x2</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x0</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x0</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x400 0x0</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x0</string>
+      <key>Verb</key>
+      <string>0x400</string>
+    </dict>
+    <dict>
+      <key>Comment</key>
+      <string>0x20 0x4b0 0x20</string>
+      <key>Enabled</key>
+      <true />
+      <key>Node ID</key>
+      <string>0x20</string>
+      <key>On Boot</key>
+      <true />
+      <key>On Connect</key>
+      <false />
+      <key>On Disconnect</key>
+      <true />
+      <key>On Mute</key>
+      <false />
+      <key>On Sleep</key>
+      <false />
+      <key>On Unmute</key>
+      <false />
+      <key>On Wake</key>
+      <true />
+      <key>Param</key>
+      <string>0x20</string>
+      <key>Verb</key>
+      <string>0x4b0</string>
+    </dict>
+  </array>
 </plist>
