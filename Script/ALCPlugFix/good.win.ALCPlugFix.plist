@@ -5,7 +5,7 @@
     <key>KeepAlive</key>
     <true/>
     <key>Label</key>
-    <string>com.black-dragon74.ALCPlugFix</string>
+    <string>good.win.ALCPlugFix.plist</string>
     <key>ProgramArguments</key>
     <array>
         <string>/usr/local/bin/ALCPlugFix</string>
