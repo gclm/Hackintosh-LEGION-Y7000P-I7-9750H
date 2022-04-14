@@ -202,7 +202,7 @@ MacRecovery-黑果在线安装工具
 ## 恢复安装
 ### 准备
 
-[![](https://img.shields.io/badge/Paragon%20Hard%20Disk%20Manager%2017下载-blue)](https://lovekevin.top/d/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Paragon%20Hard%20Disk%20Manager%2017%20Advanced%2017.13.1.rar)
+[![](https://img.shields.io/badge/Paragon%20Hard%20Disk%20Manager%2017下载-blue)](https://lovekevin.top/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Paragon%20Hard%20Disk%20Manager%2017%20Advanced%2017.13.1.rar)
 [![](https://img.shields.io/badge/恢复镜像下载-blue)](http://imacos.top/hpgw/xtgx/hfb/)
 
 ### 开始安装
