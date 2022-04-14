@@ -156,18 +156,23 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
        1) 打开DiskGenius，将EFI->OC复制到ESP->EFI下
        
        ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E1.png)
+    
        2) 打开EasyUEFI，点击管理EFI启动，点击图中位置+号添加启动项
 
        ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E2.png)
+    
        3) 选择Linux及其他操作系统，描述自定义，选择硬盘ESP分区，然后点击浏览文件
 
        ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E3.png)
+    
        4) 选择EFI->OC->OpenCore.efi，确定
 
        ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E4.png)
+    
        5) 选中刚刚添加的启动项，点击向上箭头，移到第一启动项，重启即可进入OC
 
        ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E5.png)
+    
        - 若重启第一启动项不是OC，可手动进入BIOS调整启动顺序
 ## 在线安装
 ### MacRecovery
