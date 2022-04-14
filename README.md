@@ -3,6 +3,9 @@
 
 ![Git Sync](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/actions/workflows/Auto%20Gitee.yml/badge.svg)
 
+### 安装教程
+[![](https://img.shields.io/badge/GitHub-ff79c6&)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/README.md)
+[![](https://img.shields.io/badge/Gitee-fe7300)](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/README.md)
 ## 仓库
 
 [Gitee](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) | [Github](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
@@ -33,10 +36,11 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 
 ## 项目结构
 
-```shell
-.
+```
+..
 ├── Clover       Clover引导（已过时）
 ├── LICENSE      开发协议
+├── Course       安装教程
 ├── OpenCore     OC引导
 ├── README.md    说明文档
 └── Script       修复补丁
