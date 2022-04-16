@@ -7,8 +7,8 @@
 [![](https://img.shields.io/badge/GitHub-ff79c6&)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/README.md)
 [![](https://img.shields.io/badge/Gitee-fe7300)](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/README.md)
 ## 仓库
-
-[Gitee](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H) | [Github](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
+[![](https://img.shields.io/badge/GitHub-ff79c6&)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
+[![](https://img.shields.io/badge/Gitee-fe7300)](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
 
 ## 电脑配置
 
