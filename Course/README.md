@@ -66,13 +66,13 @@
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/Bios.png)
    1) 显卡切换混合模式，打开联想电脑管家，点击右上角游戏模式
 
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK1.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK1.png)  
    2) 点击显卡模式，选择混合模式
    
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK2.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK2.png)  
    3) 若没有安装联想电脑管家，可开机连续点按F2进入BIOS设置，切换显卡模式
    
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK3.jpg)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK3.jpg)  
 10) 安装macOS Monterey
     1) 开机，按F12选择U盘引导，光标移动到EFI USB Device选择OpenCore分区启动：
     2) 进入OpenCore主引导界面，选择Install macOS Monterey，回车进入安装，这期间会显示引导日志，也就是常见的-v(啰嗦模式)，如果不幸卡住了，请拍照发到QQ群里寻求帮助
