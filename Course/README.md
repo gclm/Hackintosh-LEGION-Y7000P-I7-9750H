@@ -75,7 +75,7 @@
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK3.jpg)  
 10) 安装macOS Monterey
     1) 开机，按F12选择U盘引导，光标移动到EFI USB Device选择OpenCore分区启动：
-    2) 进入OpenCore主引导界面，选择Install macOS Monterey，回车进入安装，这期间会显示引导日志，也就是常见的-v(啰嗦模式)，如果不幸卡住了，请拍照发到QQ群里寻求帮助
+    2) 进入OpenCore主引导界面，选择Install macOS Monterey，回车进入安装，如果不幸卡住了，请到QQ群寻求帮助
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/install.png)
 11) 选择简体中文，点击->继续
@@ -87,7 +87,7 @@
 13) 进入磁盘工具，点击下图所示，选择显示所有设备
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C2.png)
-    - 在磁盘工具里面所做的操作涉及到你的数据安全，请认真仔细确认后再操作，否则由此造成的一切后果本站概不负责。
+    - 在磁盘工具里面所做的操作涉及到你的数据安全，请认真仔细确认后再操作，否则由此造成的一切后果本站概不负责
 14) 请根据你的设备选择相应的磁盘，点击抹掉，在弹出的窗口中输入：(名称自定义)
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C3.png)
@@ -103,10 +103,10 @@
 18) 阅读许可协议的条款，点击 同意
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C7.png)
-19) 选择将要安装的磁盘卷标Macintosh HD，点击继续
+19) 选择将要安装的磁盘卷标MacOS，点击继续
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C8.png)
-    - 它会把USB安装盘上的安装文件预复制到要安装的系统分区里，这个过程通常会持续1-2分钟，之后系统会自动重启，进入第二阶段的安装
+    - 它会把USB安装盘上的安装文件预复制到要安装的系统分区里，这个过程通常会持续1-2分钟，之后系统会自动重启
 20) 重启后继续安装，在安装期间，通常会自动重启2-3遍
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C9.png)
@@ -134,6 +134,8 @@
     - 运行后输入0退出修复，输入open /usr/local
     - 打开 系统偏好设置 > 安全性与隐私 > 隐私 > 辅助功能
     - 将 setleds ALCPlugFix等拖放到辅助功能
+    
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C14.png)  
 26) Y9000X扬声器无声修复
     - 打开终端输入以下命令
     ```
@@ -151,19 +153,19 @@
     2) 如果电脑只有一块硬盘，则需要手动添加引导项
        1) 打开DiskGenius，将EFI->OC复制到ESP->EFI下
        
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E1.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E1.png)  
        2) 打开EasyUEFI，点击管理EFI启动，点击图中位置+号添加启动项
 
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E2.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E2.png)  
        3) 选择Linux及其他操作系统，描述自定义，选择硬盘ESP分区，然后点击浏览文件
 
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E3.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E3.png)  
        4) 选择EFI->OC->OpenCore.efi，确定
 
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E4.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E4.png)  
        5) 选中刚刚添加的启动项，点击向上箭头，移到第一启动项，重启即可进入OC
 
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E5.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/E5.png)  
     - 若重启第一启动项不是OC，可手动进入BIOS调整启动顺序
 
 ---
