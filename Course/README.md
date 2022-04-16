@@ -123,7 +123,7 @@
 24) 系统安装后，你可以先喝杯咖啡兴奋会儿，马上还有更艰巨的任务在等着你呢
     - 先打开终端，输入命令：
     ```
-    sudo spctl –master-disable    # 启用macOS安装应用允许任何来源
+    sudo spctl --master-disable    # 启用macOS安装应用允许任何来源
     ```
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C13.png)
 25) 运行小键盘及声音修复等
