@@ -114,7 +114,7 @@
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C10.png)
     - 安装Monterey的时间通常是安装Catalina的2倍，请务必耐心等待；安装完成后，会进入设置向导
-22) 选择国家和地区：China mainland，点击Continue继续
+22) 选择国家和地区，拉到最底，选择：中国大陆，点击继续
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/C11.png)
 23) 出现桌面后，整个的安装向导就完成了。
