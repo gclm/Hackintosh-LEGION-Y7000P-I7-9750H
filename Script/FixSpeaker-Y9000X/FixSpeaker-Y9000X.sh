@@ -35,11 +35,11 @@ if [[ ! -d /usr/local/bin ]]; then
 fi
 
 if [[ ! -f alc-verb ]]; then
-    curl -O https://gitee.com/LoveGlaze/fix-speaker-y9000x/raw/master/alc-verb
+    curl -O https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/FixSpeaker-Y9000X/alc-verb
 fi
 
 if [[ ! -f ALCPlugFix ]]; then
-    curl -O https://gitee.com/LoveGlaze/fix-speaker-y9000x/raw/master/ALCPlugFix
+    curl -O https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/raw/master/Script/FixSpeaker-Y9000X/ALCPlugFix
 fi
 
 if [[ ! -f alc-verb ]]; then
