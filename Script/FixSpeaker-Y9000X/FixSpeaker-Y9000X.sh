@@ -474,6 +474,7 @@ sudo rm -rf alc-verb
 sudo rm -rf ALCPlugFix
 sudo rm -rf Config.plist
 sudo rm -rf com.black-dragon74.ALCPlugFix.plist
+open /usr/local/bin
 
 echo "完成 Done !"
 exit
