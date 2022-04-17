@@ -66,7 +66,6 @@ OpenCore：
 	更新至0.77.
 	开启Linux支持，自动扫描Linux分区。
 	OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-MinDate及MinVersion两项改为-1。
-	若遇到外接屏幕唤醒而内置黑屏时，可删减设备属性参数解决。
 CLOVER：
 	更新至5143，睡眠、触控、蓝牙一切正常。
 ```
@@ -76,11 +75,6 @@ CLOVER：
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Windows.png)
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/MacOS.png)
 
-## 黑苹果在线Recovery教程
-下载工具来自[OpenCorePkg](https://github.com/acidanthera/OpenCorePkg)项目，将py编译为exe，参数写成bat文件，方便使用。
-
-
-#### [MacRecovery](https://github.com/LoveGlaze/MacRecovery)
 ## 问题修复
 
 #### 若有小键盘无法驱动、扬声器无声或杂音、时间同步等问题，请运行以下命令修复
