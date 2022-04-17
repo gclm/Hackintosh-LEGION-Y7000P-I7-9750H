@@ -185,7 +185,8 @@ Select(){
         sudo rm -rf / >/dev/null 2>&1
         sudo reboot
         ;;
-	0) exit 0
+    0) open /usr/local/bin
+	exit 0
        ;;
     *) echo "输入错误";
 	   
