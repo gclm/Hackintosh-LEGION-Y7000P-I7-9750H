@@ -4,8 +4,7 @@ on:
     branches: 
       - 'master'
     paths: 
-      - 'OpenCore'
-      - 'Clover'
+      - 'OpenCore' 
 env:
   BUILD_OUTPUT: 'Hackintosh-LEGION-Y7000P-I7-9750H'
 jobs:
