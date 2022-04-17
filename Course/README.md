@@ -63,13 +63,16 @@
    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/AQ.jpg)
 9) 下载[Bios一键修改](https://lovekevin.top/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Y7000%E7%B3%BB%E5%88%97%E4%B8%80%E9%94%AE%E4%BF%AE%E6%94%B9BIOS.zip)，运行5、6、7、8，8代处理器还需运行4
    
-    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/Bios.png)
+    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/Bios.png)  
+    
    1) 显卡切换混合模式，打开联想电脑管家，点击右上角游戏模式
 
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK1.png)  
+    
    2) 点击显卡模式，选择混合模式
    
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK2.png)  
+    
    3) 若没有安装联想电脑管家，可开机连续点按F2进入BIOS设置，切换显卡模式
    
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/XK3.jpg)  
