@@ -24,8 +24,8 @@
   [![](https://img.shields.io/badge/DiskGenius-red)](https://www.diskgenius.cn/download.php)
   [![](https://img.shields.io/badge/EFI-grey)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
   [![](https://img.shields.io/badge/镜像-blue)](http://imacos.top/hpgw/xtgx/gfyb/)
-  [![](https://img.shields.io/badge/MyHash-yellow)](https://lovekevin.top/d/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/MyHash.7z?sign=b46bb4584ca98275)
-  [![](https://img.shields.io/badge/EasyUEFI-purple)](hhttps://lovekevin.top/d/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/EasyUEFI.zip?sign=e24af9ec567690f2)
+  [![](https://img.shields.io/badge/MyHash-yellow)](https://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/MyHash.7z)
+  [![](https://img.shields.io/badge/EasyUEFI-purple)](hhttps://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/EasyUEFI.zip)
 
 ### 安装步骤
 1) 本仓库EFI屏蔽说明
@@ -61,7 +61,7 @@
 8) 设置BIOS，开机按F2进入Bios将安全启动关闭
 
    ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/AQ.jpg)
-9) 下载[Bios一键修改](https://lovekevin.top/d/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Y7000%E7%B3%BB%E5%88%97%E4%B8%80%E9%94%AE%E4%BF%AE%E6%94%B9BIOS.zip?sign=f16f2924a2d0342a)，运行5、6、7、8，8代处理器还需运行4
+9) 下载[Bios一键修改](https://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Y7000%E7%B3%BB%E5%88%97%E4%B8%80%E9%94%AE%E4%BF%AE%E6%94%B9BIOS.zip)，运行5、6、7、8，8代处理器还需运行4
    
     ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Course/Bios.png)
    1) 显卡切换混合模式，打开联想电脑管家，点击右上角游戏模式
@@ -197,7 +197,7 @@ MacRecovery-黑果在线安装工具
 ## 恢复安装
 ### 准备
 
-[![](https://img.shields.io/badge/Paragon%20Hard%20Disk%20Manager%2017下载-blue)](https://lovekevin.top/d/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Paragon%20Hard%20Disk%20Manager%2017%20Advanced%2017.13.1.rar?sign=dd60e9e94ed53d81)
+[![](https://img.shields.io/badge/Paragon%20Hard%20Disk%20Manager%2017下载-blue)](https://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/Paragon%20Hard%20Disk%20Manager%2017%20Advanced%2017.13.1.rar)
 [![](https://img.shields.io/badge/恢复镜像下载-blue)](http://imacos.top/hpgw/xtgx/hfb/)
 
 ### 开始安装
