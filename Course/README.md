@@ -25,7 +25,7 @@
   [![](https://img.shields.io/badge/EFI-grey)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
   [![](https://img.shields.io/badge/镜像-blue)](http://imacos.top/hpgw/xtgx/gfyb/)
   [![](https://img.shields.io/badge/MyHash-yellow)](https://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/MyHash.7z)
-  [![](https://img.shields.io/badge/EasyUEFI-purple)](hhttps://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/EasyUEFI.zip)
+  [![](https://img.shields.io/badge/EasyUEFI-purple)](https://lovekevin.top/p/%E5%90%84%E7%A7%8D%E8%BD%AF%E4%BB%B6%E5%B7%A5%E5%85%B7/EasyUEFI.zip)
 
 ### 安装步骤
 1) 本仓库EFI屏蔽说明
