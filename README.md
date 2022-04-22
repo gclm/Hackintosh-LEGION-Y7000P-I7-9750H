@@ -137,3 +137,12 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 
 [![Star History Chart](https://starchart.cc/gclm/Hackintosh-LEGION-Y7000P-I7-9750H.svg)](https://starchart.cc/gclm/Hackintosh-LEGION-Y7000P-I7-9750H.svg)
 
+## 鸣谢
+- [zxystd](https://github.com/zxystd)的[itlwm](https://github.com/OpenIntelWireless/itlwm)及蓝牙驱动
+- [Acidanthera](https://github.com/acidanthera)的OpenCore及其他驱动
+- [YasuStudio](https://gitee.com/YasuStudio/fix-speaker-y9000x)整合的[Y9000X](https://github.com/SukkaW/Lenovo-Y9000X-Hackintosh)扬声器修复
+- [damieng](https://github.com/damieng/setledsmac)的小键盘驱动
+- [goodwin](https://github.com/goodwin/ALCPlugFix)的声卡修复以及[jief666](https://github.com/jief666/ALC298PlugFix)的改进
+- [harmc0re](https://www.insanelymac.com/forum/topic/264769-fix-the-time-difference-between-osx86-and-windows-in-multiboot-setups)的时间同步
+- [xiaoM](https://github.com/xiaoMGitHub/LEGION_Y7000Series_Insyde_Advanced_Settings_Tools)的BIOS一键修改
+

@@ -4,7 +4,7 @@ DAEMON_PATH=/Library/LaunchDaemons/
 BIN_PATH=/usr/local/bin/
 TMP_PATH=/tmp/
 ALC_DAEMON_FILE=good.win.ALCPlugFix.plist
-VERB_FILE=alc-verb
+VERB_FILE=had-verb
 ALC_FIX_FILE=ALCPlugFix
 TIME_FIX_FILE=localtime-toggle
 TIME_DAEMON_FILE=org.osx86.localtime-toggle.plist
@@ -20,8 +20,8 @@ init(){
 	sudo curl -s -o $TMP_PATH$ALC_DAEMON_FILE "$GIT_URL/ALCPlugFix/$ALC_DAEMON_FILE"
 	sudo curl -s -o $TMP_PATH$TIME_FIX_FILE "$GIT_URL/TimeSynchronization/$TIME_FIX_FILE"
 	sudo curl -s -o $TMP_PATH$TIME_DAEMON_FILE "$GIT_URL/TimeSynchronization/$TIME_DAEMON_FILE"
-    	sudo curl -s -o $TMP_PATH$NUM_LOCK_FIX_FILE "$GIT_URL/NumLockFix/$NUM_LOCK_FIX_FILE"
-    	sudo curl -s -o $TMP_PATH$NUM_LOCK_DAEMON_FILE "$GIT_URL/NumLockFix/$NUM_LOCK_DAEMON_FILE"
+  sudo curl -s -o $TMP_PATH$NUM_LOCK_FIX_FILE "$GIT_URL/NumLockFix/$NUM_LOCK_FIX_FILE"
+  sudo curl -s -o $TMP_PATH$NUM_LOCK_DAEMON_FILE "$GIT_URL/NumLockFix/$NUM_LOCK_DAEMON_FILE"
 	
 	if [ ! -d "$BIN_PATH" ] ; then
 		mkdir "$BIN_PATH" ;
