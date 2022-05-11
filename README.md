@@ -118,6 +118,8 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 - 开启后
 ![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-on.png)
 
+#### [偷偷扔一个超频工具](https://github.com/LoveGlaze/Y7000P-Memory-overclocking)
+
 ## 反馈
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
@@ -144,5 +146,5 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 - [damieng](https://github.com/damieng/setledsmac)的小键盘驱动
 - [goodwin](https://github.com/goodwin/ALCPlugFix)的声卡修复以及[jief666](https://github.com/jief666/ALC298PlugFix)的改进
 - [harmc0re](https://www.insanelymac.com/forum/topic/264769-fix-the-time-difference-between-osx86-and-windows-in-multiboot-setups)的时间同步
-- [xiaoM](https://github.com/xiaoMGitHub/LEGION_Y7000Series_Insyde_Advanced_Settings_Tools)的BIOS一键修改
+- 感谢群友一起吹水聊天爬贴解决问题(PS：懒得写名字)
 
