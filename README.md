@@ -69,11 +69,11 @@ OpenCore：
 CLOVER：
 	更新至5143，睡眠、触控、蓝牙一切正常。
 ```
-<img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/1.png' height="200px" width="300px"><img src='https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/2.png' height="200px" width="300px"/>
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/OpenCore.png)
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/CLOVER.png)
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/Windows.png)
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/MacOS.png)
+<img src='https://cdn.staticaly.com/gh/LoveGlaze/images/master/1.png' height="200px" width="300px"><img src='https://cdn.staticaly.com/gh/LoveGlaze/images/master/2.png' height="200px" width="300px"/>
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/OpenCore.png)
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/CLOVER.png)
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/Windows.png)
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/MacOS.png)
 
 ## 问题修复
 
@@ -105,7 +105,7 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 
 ### 打开Hackintool
 
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi.png)
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/hidpi.png)
 ```
 将导出后的DisplayVendorID-xxxx文件夹及lcons.plist放入以下位置
 访达—安装盘名—资源库—Displays—Contents—Resources—Overrides （如果没有这个文件夹手动创建一个）将文件拖入进去即可
@@ -114,9 +114,9 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 - [Hackintool下载](https://github.com/headkaze/Hackintool)
 - [RDM下载](https://github.com/avibrazil/RDM)
 - 开启前
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-off.png)
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/hidpi-off.png)
 - 开启后
-![](https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/hidpi-on.png)
+![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/hidpi-on.png)
 
 #### [偷偷扔一个超频工具](https://github.com/LoveGlaze/Y7000P-Memory-overclocking)
 
@@ -124,7 +124,7 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
 - Email：[gclm159@gmail.com](mailto:gclm159@gmail.com)
-- 交流 QQ 群：686834883<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi"><img border="0" src="https://cdn.jsdelivr.net/gh/LoveGlaze/images@master/QQ.png" alt="Hackintosh" title="Hackintosh"></a>
+- 交流 QQ 群：686834883<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi"><img border="0" src="https://cdn.staticaly.com/gh/LoveGlaze/images/master/QQ.png" alt="Hackintosh" title="Hackintosh"></a>
 
 ## 赞赏
 <img src='https://cdn.jsdelivr.net/gh/gclm/images@master/20191230923363Du7so.jpg' width="600px" />
