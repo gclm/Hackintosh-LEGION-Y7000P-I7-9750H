@@ -58,18 +58,20 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2020.10.11 | v1.6 | 优化UI和三码相关信息                            |
 | 2021.01.31 | v2.0 | 新增OpenCore配置，支持11.x                      |
 | 2021.10.30 | v2.4 | OpenCore 0.7.5，支持Monterey，修复蓝牙问题      |
-| 2022.01.22 | v2.5 | OpenCore 0.77，CLOVER 5143，支持Monterey        |
+| 2022.01.22 | v2.5 | OpenCore 0.7.7，CLOVER 5143，支持Monterey       |
+| 2022.06.12 | v2.6 | OpenCore 0.8.2(开发版)，支持Ventura             |
 
 更新简介：
 ```
 OpenCore：
-	更新至0.77.
-	开启Linux支持，自动扫描Linux分区。
-	OC-0.73及之后兼容最低版本为big sur，引导旧版本需将UEFI-APFS-MinDate及MinVersion两项改为-1。
-CLOVER：
+	更新至0.82开发版.
+	支持Ventura(切勿使用第三方镜像，否则可能出现无限重启或卡第二阶段Logo，请通过安装描述文件OTA升级)。
+
+CLOVER(停更)：
 	更新至5143，睡眠、触控、蓝牙一切正常。
 ```
-<img src='https://cdn.staticaly.com/gh/LoveGlaze/images/master/1.png' height="200px" width="300px"><img src='https://cdn.staticaly.com/gh/LoveGlaze/images/master/2.png' height="200px" width="300px"/>
+<div align=center><img src='https://cdn.staticaly.com/gh/LoveGlaze/images/master/1.png' ></div>
+
 ![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/OpenCore.png)
 ![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/CLOVER.png)
 ![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/Windows.png)
