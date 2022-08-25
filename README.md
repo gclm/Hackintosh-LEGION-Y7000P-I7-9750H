@@ -126,7 +126,7 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 
 - 反馈建议地址：<https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/issues>
 - Email：[gclm159@gmail.com](mailto:gclm159@gmail.com)
-- 交流 QQ 群：686834883<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=fnfunVaG-Z_occpl9QQDNaHB-B4S-ole&jump_from=webapi"><img border="0" src="https://cdn.staticaly.com/gh/LoveGlaze/images/master/QQ.png" alt="Hackintosh" title="Hackintosh"></a>
+- 交流 QQ 群：724052199<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=utCzquYMi7n9kE_EiCuBaoQy3wnx3yyW&jump_from=webapi"><img border="0" src="https://cdn.staticaly.com/gh/LoveGlaze/images/master/QQ.png" alt="Hackintosh" title="Hackintosh"></a>
 
 ## 赞赏
 <img src='https://cdn.jsdelivr.net/gh/gclm/images@master/20191230923363Du7so.jpg' width="600px" />
