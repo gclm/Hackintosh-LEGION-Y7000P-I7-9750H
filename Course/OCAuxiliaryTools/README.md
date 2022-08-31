@@ -35,6 +35,7 @@
        1) 点击编辑，点击勾选OpenCore开发版
        
        ![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/OCAuxiliaryTools/3.2.png)  
+       
        2) 点击升级OpenCore和Kexts按钮,选择开发版分支后点获取并点同步，更新Kext也如下所示(开发版根据自己需要勾选)
 
        ![](https://cdn.staticaly.com/gh/LoveGlaze/images/master/OCAuxiliaryTools/3.3.png)  
