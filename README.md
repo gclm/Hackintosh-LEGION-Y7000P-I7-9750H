@@ -6,6 +6,13 @@
 ### 安装教程
 [![](https://img.shields.io/badge/GitHub-ff79c6&)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/README.md)
 [![](https://img.shields.io/badge/Gitee-fe7300)](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/README.md)
+[![](https://img.shields.io/badge/Alist-blue)](https://lovekevin.top/TOOLS/Hackintosh/Hackintosh-LEGION-Y7000P-I7-9750H)  
+
+### OC更新教程
+[![](https://img.shields.io/badge/GitHub-ff79c6&)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/OCAuxiliaryTools/README.md)
+[![](https://img.shields.io/badge/Gitee-fe7300)](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H/tree/master/Course/OCAuxiliaryTools/README.md)
+[![](https://img.shields.io/badge/Alist-blue)](https://lovekevin.top/TOOLS/Hackintosh/Hackintosh-LEGION-Y7000P-I7-9750H/Course/OCAuxiliaryTools)
+
 ## 仓库
 [![](https://img.shields.io/badge/GitHub-ff79c6&)](https://github.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
 [![](https://img.shields.io/badge/Gitee-fe7300)](https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750H)
