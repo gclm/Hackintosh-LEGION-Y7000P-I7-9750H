@@ -29,7 +29,7 @@ jobs:
     - name: Pack Artifacts
       run: |
         zip -r OpenCore-Alpha-${SHORT_SHA}.zip OpenCore
-        zip -r Clover-5143(StopUpdate).zip Clover
+        zip -r Clover-5143-StopUpdate.zip Clover
     - name: Generate Prerelease Release Notes
       run: |
         echo '### 免责声明:' >> ReleaseNotes.md
