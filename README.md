@@ -74,7 +74,10 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 ```
 OpenCore：
 	更新至1.0.6
-	支持MacOS Tahoe,WiFi声卡需要安装好Tahoe后，需要使用OC目录下的仿冒博通卡.plist进入系统，然后使用OCLP3.0.0打完补丁(不要重启)，换回之前的config.plist(或者注释掉仿冒的网卡)，再重启。因为在本机上测试AppleVTD开启会产生冲突导致无法加载wifi，重构DMAR.aml、勾选DisableioMapping依旧不行，因此勾选Kernel-Quirks-DisableioMapper禁用AppleVTD。若使用MacOS Sequoia系统则不需要仿冒，直接打补丁即可使用。
+	支持MacOS Tahoe,WiFi声卡需要安装好Tahoe后，需要使用OC目录下的仿冒博通卡.plist进入系统，然后使用OCLP3.0.0打完补丁(不要重启)，
+换回之前的config.plist(或者注释掉仿冒的网卡)，再重启。因为在本机上测试AppleVTD开启会产生冲突导致无法加载wifi，重构DMAR.aml、勾
+选DisableioMapping依旧不行，因此勾选Kernel-Quirks-DisableioMapper禁用AppleVTD。若使用MacOS Sequoia系统则不需要仿冒，直接打补丁
+即可使用。
 
 CLOVER(停更)：
 	更新至5143，睡眠、触控、蓝牙一切正常。
