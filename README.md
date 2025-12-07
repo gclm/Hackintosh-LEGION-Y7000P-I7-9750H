@@ -68,12 +68,13 @@ CPU  (英特尔)Intel(R) Core(TM) i7-9750H CPU @ 2.60GHz(2592 MHz)
 | 2022.01.22 | v2.5 | OpenCore 0.7.7，CLOVER 5143，支持Monterey                    |
 | 2022.06.12 | v2.6 | OpenCore 0.8.2(开发版)，支持Ventura                          |
 | 2024.10.21 | v2.7 | OpenCore 1.0.2,支持MacOS Sequoia 15.0.1,WiFi蓝牙需要[OCLP补丁](https://github.com/laobamac/OCLP-Mod/releases)驱动 |
+| 2025.12.07 | v2.8 | OpenCore 1.0.6,支持MacOS Sequoia/Tahoe,WiFi蓝牙需要[OCLP3.0.0<u>补丁</u>](https://github.com/lzhoang2801/OpenCore-Legacy-Patcher/releases/tag/3.0.0) |
 
 更新简介：
 ```
 OpenCore：
-	更新至1.0.2
-	支持MacOS Sequoia 15.0.1,WiFi蓝牙需要OCLP补丁驱动。
+	更新至1.0.6
+	支持MacOS Tahoe,WiFi声卡需要安装好Tahoe后，需要使用OC目录下的仿冒博通卡.plist进入系统，然后使用OCLP3.0.0打完补丁(不要重启)，换回之前的config.plist(或者注释掉仿冒的网卡)，再重启。因为在本机上测试AppleVTD开启会产生冲突导致无法加载wifi，重构DMAR.aml、勾选DisableioMapping依旧不行，因此勾选Kernel-Quirks-DisableioMapper禁用AppleVTD。若使用MacOS Sequoia系统则不需要仿冒，直接打补丁即可使用。
 
 CLOVER(停更)：
 	更新至5143，睡眠、触控、蓝牙一切正常。
@@ -88,6 +89,8 @@ CLOVER(停更)：
 ## 问题修复
 
 #### 若有小键盘无法驱动、扬声器无声或杂音、时间同步等问题，请运行以下命令修复
+
+使用方法：运行命令修复后(建议使用gitee)，输入0退出，会弹出补丁窗口，打开设置-隐私与安全-辅助功能，将补丁拖入窗口即可
 
 - github命令
 
@@ -156,5 +159,6 @@ sudo sh -c "$(curl -fsSL https://gitee.com/gclm/Hackintosh-LEGION-Y7000P-I7-9750
 - [damieng](https://github.com/damieng/setledsmac)的小键盘驱动
 - [goodwin](https://github.com/goodwin/ALCPlugFix)的声卡修复以及[jief666](https://github.com/jief666/ALC298PlugFix)的改进
 - [harmc0re](https://www.insanelymac.com/forum/topic/264769-fix-the-time-difference-between-osx86-and-windows-in-multiboot-setups)的时间同步
+- 感谢远景论坛等网上大佬们的各种帖子方法驱动
 - 感谢群友一起吹水聊天爬贴解决问题(PS：懒得写名字)
 

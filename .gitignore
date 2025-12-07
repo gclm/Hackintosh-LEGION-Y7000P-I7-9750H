@@ -11,3 +11,6 @@ System Volume Information/*
 /EFI/Microsoft
 **/._*
 **/.DS_Store
+Script/OpenCore-Patcher.pkg.zip
+Script/OCAT_Mac.dmg
+Script/HeliPort.dmg

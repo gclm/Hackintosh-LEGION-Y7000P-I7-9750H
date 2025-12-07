@@ -196,6 +196,8 @@
                 <false/>
                 <key>AvoidRuntimeDefrag</key>
                 <true/>
+                <key>ClearTaskSwitchBit</key>
+                <false/>
                 <key>DevirtualiseMmio</key>
                 <false/>
                 <key>DisableSingleUser</key>
@@ -278,7 +280,7 @@
                     <key>BundlePath</key>
                     <string>Lilu.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.9</string>
+                    <string>V1.7.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -296,7 +298,7 @@
                     <key>BundlePath</key>
                     <string>VirtualSMC.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4</string>
+                    <string>V1.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -314,7 +316,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.2</string>
+                    <string>V1.9.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -350,7 +352,7 @@
                     <key>BundlePath</key>
                     <string>CpuTscSync.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.1</string>
+                    <string>V1.1.2</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -368,7 +370,7 @@
                     <key>BundlePath</key>
                     <string>RealtekRTL8111.kext</string>
                     <key>Comment</key>
-                    <string>V2.4.2</string>
+                    <string>V2.5.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -386,7 +388,7 @@
                     <key>BundlePath</key>
                     <string>SMCBatteryManager.kext</string>
                     <key>Comment</key>
-                    <string>V1.3.4</string>
+                    <string>V1.3.7</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -440,7 +442,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext</string>
                     <key>Comment</key>
-                    <string>V2.8</string>
+                    <string>V2.9.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -458,7 +460,7 @@
                     <key>BundlePath</key>
                     <string>VoodooI2C.kext/Contents/PlugIns/VoodooInput.kext</string>
                     <key>Comment</key>
-                    <string>V1.1.4</string>
+                    <string>V1.1.6</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -548,7 +550,7 @@
                     <key>BundlePath</key>
                     <string>BlueToolFixup.kext</string>
                     <key>Comment</key>
-                    <string>V2.6.9</string>
+                    <string>V2.7.1</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -584,7 +586,7 @@
                     <key>BundlePath</key>
                     <string>WhateverGreen.kext</string>
                     <key>Comment</key>
-                    <string>V1.6.8</string>
+                    <string>V1.7.0</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
@@ -847,7 +849,7 @@
                 <key>DisableIoMapper</key>
                 <false/>
                 <key>DisableIoMapperMapping</key>
-                <false/>
+                <true/>
                 <key>DisableLinkeditJettison</key>
                 <true/>
                 <key>DisableRtcChecksum</key>
